@@ -1,1 +1,26 @@
-/* место для вашего кода */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+header {
+    margin: 92px 51px;
+    display: flex;
+    
+}
+
+.header__menu {
+    list-style: circle;
+}
+
+.logo {
+
+}
+
+.contacts {
+
+}
