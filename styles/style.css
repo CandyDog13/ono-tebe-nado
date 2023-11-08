@@ -4,21 +4,38 @@
 }
 
 body {
-    box-sizing: border-box;
+    color:#000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 header {
-    margin: 92px 51px;
-    display: flex;
+    margin: 92px 49px 92px 51px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: stretch;
+
     
+   
 }
 
 .header__menu {
+    display: flex;
+}
+
+.header__links-list {
     list-style: circle;
+    display: flex;
 }
 
 .header__logo {
-
+    display: block;
+    width: 148px;
+    height: 105px;
+    flex-shrink: 0;
+    margin: 4px;
 }
 
 .contacts {
