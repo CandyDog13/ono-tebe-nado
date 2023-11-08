@@ -74,3 +74,10 @@ header {
     text-decoration: none;
     border-bottom: 1px #000 solid;
 }
+
+.cover {
+    background-image: url("../images/cover.jpg");
+    background-size: 95% auto;
+    background-repeat: no-repeat;
+    min-height: 258px;
+}
