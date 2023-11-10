@@ -100,7 +100,7 @@ header {
 .overlay_cover {
     height: 757px;
     width: 1440px;
-    top: 293px;
+    top: 281px;
     left:0;
 }
 
@@ -281,7 +281,7 @@ header {
 }
 
 .card__title {
-    padding: 50px 40px 0;
+    padding: 50px 38px 0;
     color:#fff;
     font-size: 22px;
     font-style: normal;
