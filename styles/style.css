@@ -62,7 +62,7 @@ header {
 }
 
 .address {
-    width: 240px;
+   
     flex-shrink: 0;
     font-style: normal;
     font-weight: 400;
