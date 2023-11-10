@@ -276,12 +276,12 @@ header {
     
 }
 
-.overlay_card {
+/* .overlay_card {
     width: 430px;
     height: 450px;
     left:0;
     top:0;
-}
+} */
 
 .card__title {
     padding: 50px 39px 0;
@@ -382,7 +382,7 @@ header {
 .footer {
     margin:180px 50px 90px;
     display: grid;
-    grid-template-columns: min-content max-content max-content;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
 }
 
