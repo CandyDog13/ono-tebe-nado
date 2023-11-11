@@ -15,7 +15,7 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a class="header__link header__link_active">главная</a>
+            <a class="header__link header__link_active" href="#0">главная</a>
           </li>
           <li class="header__links-list-item">
             <a class="header__link" href="#lots">посмотреть лоты</a>
@@ -30,15 +30,13 @@
           src="./images/logo-black.svg"
           alt="Логотип проекта">
       </a>
-      <div class="address header__address">
-        <address class="address">
+        <address class="address header__address">
           <a class="header__link" href="tel:+99995555555">+9 999 555 5555</a><br>
           <a class="header__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <p class="address">
             наб. Принсенграхт 263-265,<br>Амстердам
           </p>
         </address>
-      </div>
     </header>
 
     <main>
@@ -66,7 +64,7 @@
           </span>
         </h1>
         <div class="cover__discription">
-          <h3 class="cover__discription-text">аукцион вещей, в которые никто не <span class="cover__discription-text-last-word">верил</span></h3>
+          <p class="cover__discription-text">аукцион вещей, в которые никто не <span class="cover__discription-text-last-word">верил</span></p>
           <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
@@ -78,9 +76,9 @@
           лоты  
         </h2>
         <ul class="lots__card-list">
-          <li class="lots__card-list-item card_type_film">
+          <li class="lots__card-list-item">
             <a class="card-link" href="#0">
-              <article class="card">
+              <article class="card card_type_film">
                 <div class="overlay overlay_card"></div>
                 <h3 class="card__title">
                   фильм режиссёра, который бросил киношколу
@@ -94,9 +92,9 @@
               </article>
             </a>
           </li>
-          <li class="lots__card-list-item card_type_book">
+          <li class="lots__card-list-item">
             <a class="card-link" href="#0">
-              <article class="card">
+              <article class="card card_type_book">
                 <div class="overlay overlay_card"></div>
                 <h3 class="card__title">
                   книга, где описан один скучный день из жизни рекламного агента
@@ -112,9 +110,9 @@
               </article>
             </a>
           </li>
-          <li class="lots__card-list-item card_type_picture">
+          <li class="lots__card-list-item">
             <a class="card-link" href="#0">
-              <article class="card">
+              <article class="card card_type_picture">
                 <div class="overlay overlay_card"></div>
                 <h3 class="card__title">
                   картина, которую повторит даже 5-ти летний сын маминой подруги
@@ -142,18 +140,18 @@
           alt="Логотип проекта">
         </div>
         <div class="about__colunm"> <!--придумать как тут убрать этот класс-->
-          <h3 class="about__title">
+          <h2 class="about__title">
             об аукционе
-          </h3>
+          </h2>
           <div class="about__text">
-            <p class="about__text-p1">
+            <p>
               Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
               Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен
               дневник девочки-подростка или картинка, которую может нарисовать даже ребёнок? Кому 
               нужны все эти странные вещи, созданные любителям?
             </p>
               
-            <p class="about__text-p2">
+            <p>
               Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах 
               растерзанные критиками. Непринятые и непонятные. Когда-то они казались просто неудачными.
               Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно
@@ -165,7 +163,6 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="address">
         <address class="address">
           <a class="header__link" href="tel:+99995555555">+9 999 555 5555</a><br>
           <a class="header__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -173,7 +170,6 @@
             наб. Принсенграхт 263-265, <br>Амстердам
           </p>
         </address>
-      </div>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
